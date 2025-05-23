@@ -1,0 +1,6 @@
+#define PI 3.14159
+#define HELLO "Hello, world!"
+
+This is a text with some macros. For example, we can replace the value of PI: PI = 3.14.
+Or we can say: HELLO. And we can also create our own macros, like this one: #define MAX(x, y) ((x) > (y) ? (x) : (y))
+This macro finds the maximum of two values, like MAX(10, 20) = 20.
